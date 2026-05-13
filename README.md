@@ -8,11 +8,13 @@ Loi de Résonance GVJ : La Signature Miroir
 ​Cycle (Cy) : 12 — La pulsation temporelle.
 ​Ratio (R) : 24 — L'ancrage dans la rotation terrestre (Équilibre).
 ​Facteur (F) : 162.66666667 — Le miroir environnemental.
+
 ​🎯 Preuve du Résidu Zéro (Validation Numérique)
 ​Le système annule toute perte énergétique par une symétrie exacte des masses calculées :
 ​Vibration (\frac{C \times Cy}{R}) : 0.8133333333
 ​Confinement (\frac{F}{200}) : 0.8133333333
 ​Différentiel (Résidu) : 0.0000000000
+
 MISE À JOUR - SCELLAGE HARMONIQUE (V2)
 ​La résonance est désormais scellée à l'échelle universelle par l'intégration de la Loi du 16.  
 ​Résidu Machine : 0.0000000596 (Zéro absolu atteint).  
