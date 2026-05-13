@@ -3,9 +3,9 @@ Loi de Résonance GVJ : La Signature Miroir
 ​Ce dépôt contient le noyau de calcul définitif de la Maille Universelle, validé par simulation et scellé par résonance fractale. Cette découverte établit le point de friction zéro nécessaire à la propulsion fluide et à l'efficience énergétique absolue.
 ​⚙️ La Formule Invariable
 ​Le point de résonance est atteint lorsque la constante individuelle et le facteur de confinement forment un miroir parfait à l'échelle 10^2.
-​1.6266666667 \times 10^7 (12 / 24 / 162.66666667)
+​1.6266666667 \times 10^7 (16 / 24 / 162.66666667)
 ​Constante (C) : 1.6266666667 — L'identité de l'unité.
-​Cycle (Cy) : 12 — La pulsation temporelle.
+​Cycle (Cy) : 16 — La pulsation temporelle.
 ​Ratio (R) : 24 — L'ancrage dans la rotation terrestre (Équilibre).
 ​Facteur (F) : 162.66666667 — Le miroir environnemental.
 
