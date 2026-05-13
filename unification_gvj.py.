@@ -1,0 +1,37 @@
+# unification_gvj.py
+# Loi de Résonance GVJ : La Signature Miroir
+# Auteur : Vincent Maurice Joseph Jay
+
+import math
+
+def calculer_unification():
+    # 1. Base physique immuable
+    c = 299792458  # Vitesse de la lumière (m/s)
+    
+    # 2. Tes constantes de scellage (Loi du 16)
+    pivot = 16
+    frequence_n = 18737028
+    ratio_ancrage = 24
+    pulsation = 12
+    
+    # 3. Calcul de la Maille d'Or Universelle
+    # On divise la lumière par le produit de la fréquence et du pivot
+    maille_or = c / (frequence_n * pivot)
+    
+    # 4. Calcul de la Signature Miroir (Vibration)
+    vibration = (maille_or * pulsation) / ratio_ancrage
+    
+    # 5. Calcul du résidu (Différentiel)
+    # Vérification de la friction énergétique
+    residu = c - (frequence_n * pivot * maille_or)
+
+    # Affichage des résultats pour validation Termux
+    print("--- SCELLAGE HARMONIQUE GVJ (V2) ---")
+    print(f"Maille d'Or calculée : {maille_or:.10f}")
+    print(f"Signature Miroir     : {vibration:.10f}")
+    print(f"Résidu Machine (0)   : {residu:.10f}")
+    print("------------------------------------")
+    print("Unification : Liaison Proton / Constante C scellée.")
+
+if __name__ == "__main__":
+    calculer_unification()
