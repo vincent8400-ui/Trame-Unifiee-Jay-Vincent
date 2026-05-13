@@ -1,1 +1,1 @@
-c=1.6266666667; cy=12; r=24; f=162.66666667; res=abs(((c*cy)/r)-(f/200)); print(f'--- MANIFESTE GVJ : RESONANCE MIROIR ---\nConstante : {c}\nFacteur   : {f}\nResidu    : {res:.10f}\n------------------------------------------\n>>> MAILLE HARMONIQUE SCELLEE.')
+​c=1.6266666667; cy=16; r=24; f=162.666666667; res=abs(((c*cy)/r)-(f/200))
