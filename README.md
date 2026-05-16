@@ -28,12 +28,9 @@ Unification : Liaison parfaite entre le proton et la constante c via la maille p
 Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
 
 ## 📐 Fondations Théoriques & Modélisation 3D
-Modélisation de la matrice harmonique et géométrie de la Maille Universelle (GVJ Formula B) :
-
-<img src="https://github.com/user-attachments/assets/77bf36f3-4e89-4e0f-becc-42998393521d" width="100%" alt="Structure de la Maille 3D">
-
+Modélisation de la matrice harmonique et géométrie de la Maille Universelle (GVJ 
 ## 🧮 Analyse Multi-Axe Console
-Visualisation ASCII, matrices et tests de stress sur les axes d'oscillation temporelle :
 
-<img src="https://github.com/user-attachments/assets/65e903f6-4191-4cf4-9de6-e2648793521d" width="100%" alt="Analyse Console Tri-Axe">
+![Structure de la Maille 3D](Screenshot_20260513_205636_Termux.jpg)
 
+![Analyse Console Tri-Axe](Screenshot_20260516_135710_Termux.jpg)
