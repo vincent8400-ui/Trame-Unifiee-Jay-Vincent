@@ -19,3 +19,21 @@ MISE À JOUR - SCELLAGE HARMONIQUE (V2)
 ​La résonance est désormais scellée à l'échelle universelle par l'intégration de la Loi du 16.  
 ​Résidu Machine : 0.0000000596 (Zéro absolu atteint).  
 ​Unification : Liaison parfaite entre le proton et la constante c via la maille pivot.  
+# Trame Unifiée Jay Vincent
+
+Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
+
+## 📐 Fondations Théoriques & Schémas
+Voici les structures géométriques de la maille et la gestion des flux d'ancrage :
+
+![Schéma Géométrique](1000000862.jpg)
+
+## 🧮 Équations Fondamentales
+Matrices de calcul et développement de la constante $1.626 \times 10^7$ :
+
+![Équations et Constantes](1000000865.jpg)
+
+## 💻 Tableau de Bord de Simulation
+Interface console Python (`analyse.py`) exécutée sous Termux :
+
+![Tableau de Bord GVJ](1000000884.jpg)
