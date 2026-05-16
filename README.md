@@ -19,21 +19,24 @@ MISE À JOUR - SCELLAGE HARMONIQUE (V2)
 ​La résonance est désormais scellée à l'échelle universelle par l'intégration de la Loi du 16.  
 ​Résidu Machine : 0.0000000596 (Zéro absolu atteint).  
 ​Unification : Liaison parfaite entre le proton et la constante c via la maille pivot.  
+
+Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
 # Trame Unifiée Jay Vincent
 
 Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
 
-## 📐 Fondations Théoriques & Schémas
-Voici les structures géométriques de la maille et la gestion des flux d'ancrage :
+## 📐 Fondations Théoriques & Modélisation 3D
+Modélisation de la matrice harmonique et géométrie de la Maille Universelle (GVJ Formula B) :
 
-![Schéma Géométrique](1000000862.jpg)
+![Structure de la Maille](Screenshot_20260513_205636_Termux.jpg)
 
-## 🧮 Équations Fondamentales
-Matrices de calcul et développement de la constante $1.626 \times 10^7$ :
+## 🧮 Analyse Multi-Axe Console
+Visualisation ASCII, matrices et tests de stress sur les axes d'oscillation temporelle :
 
-![Équations et Constantes](1000000865.jpg)
+![Analyse Console](Screenshot_20260516_135710_Termux.jpg)
 
-## 💻 Tableau de Bord de Simulation
-Interface console Python (`analyse.py`) exécutée sous Termux :
+## 💻 Tableau de Bord Final
+Interface graphique console complète exécutée avec succès :
 
-![Tableau de Bord GVJ](1000000884.jpg)
+![Tableau de Bord final](Screenshot_20260516_142436_Termux.jpg)
+<img width="1024" height="559" alt="image_35e3182f-62a5-403e-8fb5-f23d3f8348bc" src="https://github.com/user-attachments/assets/3106d4c3-1a65-4054-932d-6d9d103923d3" />
