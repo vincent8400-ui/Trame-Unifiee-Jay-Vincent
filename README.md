@@ -37,3 +37,16 @@ Interface graphique console complète exécutée avec succès :
 
 ![Tableau de Bord final](Screenshot_20260516_142436_Termux.jpg)
 <img width="1024" height="559" alt="image_35e3182f-62a5-403e-8fb5-f23d3f8348bc" src="https://github.com/user-attachments/assets/3106d4c3-1a65-4054-932d-6d9d103923d3" />
+# Trame Unifiée Jay Vincent
+
+Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
+
+## 📐 Fondations Théoriques & Modélisation 3D
+Modélisation de la matrice harmonique et géométrie de la Maille Universelle (GVJ Formula B) :
+
+<img src="https://github.com/user-attachments/assets/77bf36f3-4e89-4e0f-becc-42998393521d" width="100%" alt="Structure de la Maille 3D">
+
+## 🧮 Analyse Multi-Axe Console
+Visualisation ASCII, matrices et tests de stress sur les axes d'oscillation temporelle :
+
+<img src="https://github.com/user-attachments/assets/65e903f6-4191-4cf4-9de6-e2648793521d" width="100%" alt="Analyse Console Tri-Axe">
