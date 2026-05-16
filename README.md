@@ -20,10 +20,7 @@ MISE À JOUR - SCELLAGE HARMONIQUE (V2)
 ​Résidu Machine : 0.0000000596 (Zéro absolu atteint).  
 ​Unification : Liaison parfaite entre le proton et la constante c via la maille pivot.  
 
-Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
 # Trame Unifiée Jay Vincent
-
-Projet de recherche indépendant sur les structures vibratoires et les dynamiques de flux.
 
 ## 📐 Fondations Théoriques & Modélisation 3D
 Modélisation de la matrice harmonique et géométrie de la Maille Universelle (GVJ Formula B) :
