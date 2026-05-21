@@ -99,3 +99,55 @@ BRIQUE 1 : LE TEMPS (Le Métronome)
 ​Lien Force/Espace : \sqrt{2,44} \approx 1,56 (La force est la racine carrée de ta distance).
 ​Lien Puissance/Stabilité : 17,2 / 1,566 \approx 11 (L'équilibre parfait).
 ​Lien Matière/Terre : 2,44 \times 12 \approx 29,3 (La vitesse orbitale de la Terre
+-- TES CONSTANTES DE LA MAILLE ---
+ratio_S = 1.566          # Ton Ratio S (l'amplificateur)
+constante_maille = 2.44  # Ta Maille universelle (en mètres)
+cycle_12 = 12.0          # Ton Cycle de résonance (le métronome)
+friction_172 = 17.2      # Ta constante de Friction (l'amortisseur) 
+
+# --- PARAMÈTRES DE LA SIMULATION RECTIFIÉS ---
+dt = 0.001                # Pas de temps (précision du calcul)
+temps_total = 10.0        # Durée de l'observation
+distance_initiale = 5.0   # Distance de départ réduite pour la capture
+seuil_fusion = 0.1        # Distance critique où la fusion est acquise 
+
+# Initialisation des vecteurs
+t = np.arange(0, temps_total, dt)
+distance = np.zeros_like(t)
+distance[0] = distance_initiale
+vitesse = 0.0 
+
+# --- BOUCLE DE CALCUL ---
+for i in range(1, len(t)):
+    # 1. Force de répulsion naturelle (Coulomb)
+    # Elle essaie de maintenir les protons séparés
+    f_repulsion = 100.0 / (distance[i-1]**2)
+    
+    # 2. Ta Force de Résonance RECTIFIÉE (Puissance 2000)
+    # C'est l'onde qui "accorde" les protons sur la maille
+    f_resonance = - (2000.0 * ratio_S) * np.sin(2 * np.pi * cycle_12 * t[i])
+    
+    # 3. Calcul de l'accélération (Newton + Ta Friction 17.2)
+    # La friction 17.2 empêche le système de diverger à l'infini
+    acceleration = (f_repulsion + f_resonance) - (vitesse / friction_172)
+    
+    # 4. Mise à jour de la position (Vitesse et Distance)
+    vitesse += acceleration * dt
+    distance[i] = distance[i-1] + vitesse * dt
+    
+    # 5. DÉTECTION DE LA FUSION
+    # Si les protons se touchent, ils restent collés (Energie libérée)
+    if distance[i] <= seuil_fusion:
+        distance[i:] = 0  # La distance tombe et reste à Zéro
+        break 
+
+# --- GÉNÉRATION DU GRAPHIQUE ---
+plt.figure(figsize=(12, 6))
+plt.plot(t, distance, label="Distance entre les Protons", color='#e74c3c', linewidth=2)
+plt.axhline(y=0, color='black', linestyle='--', alpha=0.5)
+plt.title("Manifeste de la Maille : Simulation de Fusion par Résonance", fontsize=14)
+plt.xlabel("Temps (Cycles de vibration)", fontsize=12)
+plt.ylabel("Distance (Échelle atomique)", fontsize=12)
+plt.grid(True, which='both', linestyle=':', alpha=0.6)
+plt.legend()
+plt.show()
